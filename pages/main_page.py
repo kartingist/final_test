@@ -9,6 +9,7 @@ class MainPage(BasePage):
         link = self.browser.find_element(*MainPageLocators.LOGIN_LINK)
         link.click()
 
+
         # return LoginPage(browser=self.browser, url=self.browser.current_url)
 
     def should_be_login_link(self):
